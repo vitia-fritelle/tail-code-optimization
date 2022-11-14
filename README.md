@@ -10,11 +10,11 @@ For using this code all you have to do is:
 ``` javascript
   function recursiveFuction(recursiveFunctionParameters) {
       if (someBaseCase) {
-        return BaseCase(someValue);
+        return new BaseCase(someValue);
       } else if (anotherBaseCase) {
-        return BaseCase(anotherValue);
+        return new BaseCase(anotherValue);
       } else {
-        return TailCall(newArgs);
+        return new TailCall(newArgs);
       }
   }
 
